@@ -1,0 +1,6 @@
+[package]
+name = "rustforlife"
+version = "0.1.0"
+authors = ["amotz <>"]
+
+[dependencies]
