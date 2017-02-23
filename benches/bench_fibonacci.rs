@@ -10,3 +10,8 @@ use rustforlife::fibonacci;
 fn bench_f25(b: &mut Bencher) {
     b.iter(|| fibonacci::fibonacci(25));
 }
+
+#[bench]
+fn bench_f25_dp(b: &mut Bencher) {
+    b.iter(|| fibonacci::fibonacci_dp(25));
+}
