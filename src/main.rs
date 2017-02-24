@@ -1,6 +1,6 @@
 extern crate rustforlife;
 
-use rustforlife::fizzbuzz;
+//use rustforlife::fizzbuzz;
 use rustforlife::fibonacci;
 use std::env;
 
