@@ -1,2 +1,10 @@
 language: rust
-script: make all
+
+matrix:
+  include:
+    - os: osx
+      rust: nightly
+      env: TARGET=x86_64-apple-darwin
+
+script:
+  - cargo test
