@@ -6,4 +6,4 @@ workbook of Rust Programming Language
 
 - [x] FizzBuzz
 - [x] Fibonacci Sequence
-- [ ] Tower of Hanoi
+- [x] Tower of Hanoi

@@ -1,7 +1,8 @@
 extern crate rustforlife;
 
 //use rustforlife::fizzbuzz;
-use rustforlife::fibonacci;
+//use rustforlife::fibonacci;
+use rustforlife::hanoi;
 use std::env;
 
 fn main() {
@@ -16,6 +17,9 @@ fn main() {
     */
 
     // Fibonacci
-    println!("{}", fibonacci::fibonacci(num));
+    //println!("{}", fibonacci::fibonacci(num));
+    
+    // Hanoi
+    println!("{}", hanoi::hanoi(num));
 
 }
